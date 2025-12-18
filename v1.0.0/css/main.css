@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: var(--container-max-width);
+    margin: var(--container-margin);
+    padding: var(--container-padding);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow);
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    color: var(--text-primary);
+}
+
+.form-group {
+    margin-bottom: var(--form-group-margin);
+    padding: var(--form-group-padding);
+    background-color: var(--bg-light-color);
+    border-radius: var(--border-sm-radius);
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: var(--text-secondary);
+}
+
+.radio-group {
+    display: flex;
+    gap: var(--radio-group-gap);
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+.radio-item {
+    display: flex;
+    align-items: center;
+    gap: var(--radio-item-gap);
+}
+
+button {
+    background-color: var(--primary-color);
+    color: white;
+    padding: var(--button-padding);
+    border: none;
+    border-radius: var(--border-sm-radius);
+    cursor: pointer;
+    font-size: var(--button-font-size);
+    width: 100%;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: var(--primary-dark-color);
+}
+
+.error提示 {
+    color: var(--error-color);
+    margin-top: var(--error-margin);
+    display: none;
+    font-size: 14px;
+}
+
+.hint {
+    font-size: 12px;
+    color: var(--text-hint);
+    margin-top: var(--hint-margin);
+}

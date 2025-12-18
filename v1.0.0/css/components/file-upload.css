@@ -1,0 +1,39 @@
+.file-upload-wrapper {
+    display: flex;
+    gap: var(--file-upload-gap);
+    align-items: center;
+    margin-top: 5px;
+}
+
+.file-upload-area {
+    flex: 1;
+    padding: var(--file-upload-padding);
+    border: 2px dashed var(--border-dashed-color);
+    border-radius: var(--border-sm-radius);
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.file-upload-area:hover, .file-upload-area.drag-over {
+    border-color: var(--primary-color);
+}
+
+.file-upload-text {
+    color: var(--text-tertiary);
+    font-size: 14px;
+}
+
+.file-upload-filename {
+    color: var(--text-primary);
+    font-weight: 500;
+    margin-top: 5px;
+    font-size: 14px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+#svpFile {
+    display: none; /* 隐藏原生文件输入 */
+}

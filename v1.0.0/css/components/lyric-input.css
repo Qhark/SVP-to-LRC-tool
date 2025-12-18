@@ -1,0 +1,11 @@
+textarea {
+    width: 100%;
+    padding: var(--input-padding);
+    border: 1px solid var(--border-light-color);
+    border-radius: var(--border-sm-radius);
+    font-size: 14px;
+    min-height: 200px;
+    resize: vertical;
+    margin-top: 5px;
+    display: block; /* 默认显示（自定义歌词） */
+}

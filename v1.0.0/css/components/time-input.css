@@ -1,0 +1,18 @@
+.time-input-group {
+    display: flex;
+    gap: var(--time-input-gap);
+    margin-top: 5px;
+}
+
+.time-input-group input {
+    flex: 1;
+    padding: var(--input-padding);
+    border: 1px solid var(--border-light-color);
+    border-radius: var(--border-sm-radius);
+    font-size: 14px;
+    text-align: center;
+}
+
+.time-input-group input::placeholder {
+    color: var(--text-placeholder);
+}

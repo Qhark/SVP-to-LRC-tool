@@ -1,0 +1,41 @@
+:root {
+    /* 颜色变量 */
+    --primary-color: #4CAF50;
+    --primary-dark-color: #45a049;
+    --border-color: #e0e0e0;
+    --border-light-color: #ccc;
+    --border-dashed-color: #ccc;
+    --bg-color: #fff;
+    --bg-light-color: #f9f9f9;
+    --bg-lighter-color: #fafafa;
+    --text-primary: #333;
+    --text-secondary: #555;
+    --text-tertiary: #666;
+    --text-placeholder: #999;
+    --text-hint: #666;
+    --error-color: #f44336;
+    --shadow: 0 2px 10px rgba(0,0,0,0.1);
+    
+    /* 尺寸变量 */
+    --container-max-width: 800px;
+    --container-margin: 50px auto;
+    --container-padding: 20px;
+    --border-radius: 8px;
+    --border-sm-radius: 4px;
+    --form-group-margin: 20px;
+    --form-group-padding: 15px;
+    --radio-group-gap: 20px;
+    --radio-item-gap: 5px;
+    --file-upload-gap: 10px;
+    --file-upload-padding: 15px;
+    --time-input-gap: 10px;
+    --input-padding: 10px;
+    --button-padding: 12px 24px;
+    --button-font-size: 16px;
+    --error-margin: 8px;
+    --hint-margin: 5px;
+    --svp-info-margin: 30px 0;
+    --svp-info-padding: 15px;
+    --info-item-margin: 10px;
+    --info-label-width: 120px;
+}

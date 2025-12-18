@@ -1,0 +1,15 @@
+<div class="form-group">
+    <label>歌词来源：</label>
+    <div class="radio-group">
+        <div class="radio-item">
+            <input type="radio" name="lyricType" id="customLyric" value="custom" checked>
+            <label for="customLyric">自定义歌词</label>
+        </div>
+        <div class="radio-item">
+            <input type="radio" name="lyricType" id="svpLyric" value="svp">
+            <label for="svpLyric">使用SVP内置歌词</label>
+        </div>
+    </div>
+    <textarea id="lyrics" placeholder="请输入自定义歌词（分行输入）"></textarea>
+    <div class="hint" id="lyricHint">自定义歌词按行输出，每行对应若干音符，每行一个时间戳</div>
+</div>

@@ -1,0 +1,20 @@
+<div class="form-group">
+    <label>歌曲起始时间偏移：</label>
+    <div class="radio-group">
+        <div class="radio-item">
+            <input type="radio" name="decimalType" id="threeDecimal" value="3" checked>
+            <label for="threeDecimal">三位小数（00:00.000）</label>
+        </div>
+        <div class="radio-item">
+            <input type="radio" name="decimalType" id="twoDecimal" value="2">
+            <label for="twoDecimal">两位小数（00:00.00）</label>
+        </div>
+    </div>
+    <div class="time-input-group">
+        <input type="number" id="timeMm" placeholder="分钟 (mm)" value="00" min="0" max="59">
+        <input type="number" id="timeSs" placeholder="秒 (ss)" value="00" min="0" max="59">
+        <input type="number" id="timeMs" placeholder="毫秒 (xxx)" value="000" min="0" max="999">
+    </div>
+    <div class="error提示" id="timeError">时间格式错误！请检查输入范围（分钟0-59，秒0-59，毫秒0-999）</div>
+    <div class="hint">示例：三位小数输入 01 / 05 / 500 → 01:05.500；两位小数输入 01 / 05 / 50 → 01:05.50</div>
+</div>

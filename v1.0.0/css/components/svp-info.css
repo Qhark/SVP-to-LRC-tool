@@ -1,0 +1,37 @@
+.svp-info {
+    margin: var(--svp-info-margin);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: var(--svp-info-padding);
+    background-color: var(--bg-lighter-color);
+}
+
+.svp-info h3 {
+    margin-bottom: 15px;
+    color: var(--text-primary);
+    font-size: 18px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 8px;
+}
+
+.info-item {
+    margin-bottom: var(--info-item-margin);
+    line-height: 1.6;
+}
+
+.info-label {
+    font-weight: 600;
+    color: var(--text-secondary);
+    display: inline-block;
+    width: var(--info-label-width);
+}
+
+.info-value {
+    color: var(--text-primary);
+}
+
+.svp-info-empty {
+    color: var(--text-placeholder);
+    text-align: center;
+    padding: 20px;
+}

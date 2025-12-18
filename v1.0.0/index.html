@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SVP转LRC工具</title>
+    <link rel="stylesheet" href="css/utils/variables.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/components/file-upload.css">
+    <link rel="stylesheet" href="css/components/time-input.css">
+    <link rel="stylesheet" href="css/components/lyric-input.css">
+    <link rel="stylesheet" href="css/components/svp-info.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SVP转LRC工具</h1>
+        
+        <!-- 文件上传区域 -->
+        <div id="fileUploadContainer"></div>
+        
+        <!-- 时间偏移设置 -->
+        <div id="timeOffsetContainer"></div>
+        
+        <!-- 歌词选择 -->
+        <div id="lyricSelectionContainer"></div>
+        
+        <!-- 生成按钮 -->
+        <button id="generateBtn">生成并下载LRC文件</button>
+        
+        <!-- SVP解析信息展示区 -->
+        <div id="svpInfoContainer"></div>
+    </div>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>
