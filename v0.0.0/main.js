@@ -357,7 +357,7 @@ function parseSvpContent(svpText) {
 
         const validNotes = filterValidNotes(rawNotes);
         if (validNotes.length === 0) {
-            throw new Error('未找到有效音符（已过滤br/-/+）');
+            throw new Error('未找到有效音符（已过滤br/cl/-/+）');
         }
 
         // 4. 为每个音符计算正确的时间（适配变速）
@@ -403,7 +403,7 @@ function parseSvpContent(svpText) {
 function filterValidNotes(notes) {
     return notes
         .filter(note => note.musicalType === 'singing' && note.lyrics?.trim())
-        .filter(note => !['br', '-', '+'].includes(note.lyrics.trim().toLowerCase()));
+        .filter(note => !['br', 'cl', '-', '+'].includes(note.lyrics.trim().toLowerCase()));
 }
 
 // 验证时间输入
